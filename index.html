@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate BMI</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body class="bg">
+    <div id="container">
+        <h1 class="first">BMI Calculator</h1>
+    </div>
+    <br>
+    <div class="second">
+        <span class="seconds">
+            <h2>Enter your weight here</h2>
+        </span>
+        <span class="seconds"><input class="fifth" type="text" id="weight"><select type="multiple">
+                <option value="kg" selected="selected">kilograms</option>
+            </select></span>
+    </div>
+    <br>
+    <div class="second">
+        <span class="seconds">
+            <h2>Enter your height here</h2>
+        </span>
+        <span class="seconds"><input class="fifth" type="text" id="height"><select type="multiple">
+                <option value="metres" selected="selected">centimetres</option>
+            </select></span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="third">
+        <button class="fourth" id="btn" onclick="myFUN()">Calculate</button>
+    </div>
+    <div class="result">
+        <h2>Your BMI is : <span id="output"> ? </span> </h2>
+    </div>
+    <br>
+    <div class="outputs">
+        <h2> <span id="Show"> .... </span>  </h2>
+    </div>
+</body>
+
+</html>

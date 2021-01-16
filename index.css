@@ -1,0 +1,76 @@
+
+.first{
+    text-align: center;
+    font-size: 50px;
+    color:whitesmoke; 
+}
+
+.bg{
+    background-color: cadetblue;
+}
+
+.second{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    display: grid;
+    grid-template-columns: 5fr 5fr
+   
+}
+
+.fourth:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.seconds{
+    display: inline-block;
+    align-self: center;
+}
+
+.seconds h2{
+    color: whitesmoke;
+}
+
+.third{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.fourth{
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: yellowgreen;
+    color: black;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    text-align: center;
+
+}
+
+.fifth{
+    padding: 8px;
+    margin: 4px;
+    text-align: center;
+    align-self: center;
+}
+
+.result{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+.outputs{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
